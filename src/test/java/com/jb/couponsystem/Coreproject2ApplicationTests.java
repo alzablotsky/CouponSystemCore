@@ -2171,8 +2171,9 @@ public class Coreproject2ApplicationTests {
 		}
 		
 		/**
-		 * Test for removeCustomer method of AdminFacade in case that a company has coupons.
-		 * When the method removes the company from the database all its coupons are also removed. 
+		 * Test for removeCustomer method of AdminFacade in case that a customer has coupons.
+		 * When the method removes the customer from the database all his coupons
+		 * are also removed from joint coupon-customer table. 
 		 */
 		@Test
 		public void test_4_031_adminRemoveCustomerWithCoupons() {
